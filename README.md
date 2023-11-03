@@ -1,23 +1,39 @@
 # Project-1--Guess-My-Number
 
 
-![pigame](pigame.jpg)
 
 
-# Dice Game
 
-This is a simple dice game application built with HTML, CSS, and JavaScript. The game allows two players to take turns rolling a dice and accumulating points. The goal is to be the first player to reach a specified score (e.g., 100) and become the winner.
+# Number Guessing Game
+
+The Number Guessing Game is a simple web application built with HTML, CSS, and JavaScript. The game challenges players to guess a randomly generated secret number between 1 and 20. Players have 20 chances to guess the correct number and can track their scores as they play.
 
 ## Features
 
-- Roll the dice to accumulate points for your turn.
-- Hold your current score to add it to your total score.
-- Avoid rolling a 1, as it switches the turn to the other player.
-- The first player to reach the specified winning score is declared the winner.
+- Guess the secret number within 20 attempts.
+- Receive feedback on whether your guess is too high or too low.
+- Keep track of your score and highscore.
+- Reset the game to start guessing again.
 
 ## How to Play
 
-1. Click the "Roll Dice" button to roll the dice.
-2. Keep rolling to accumulate points, but don't roll a 1.
-3. Click the "Hold" button to add your current points to your total score.
-4. Be the first player to reach the winning score to win the game.
+1. Enter your guess in the input field and click the "Check" button.
+2. Receive feedback on your guess and continue guessing.
+3. Try to guess the correct number within 20 attempts to win the game.
+4. Your highscore will be updated if you beat your previous best score.
+
+## Screenshots
+
+![Screenshot 1](randomnumber.jpg)
+
+
+## Try it Out
+
+You can try out the game by [visiting this link](#).
+
+## Installation
+
+To run the game locally, you can clone the repository and open the `index.html` file in your web browser.
+
+```bash
+git clone https://github.com/yourusername/number-guessing-game.git
